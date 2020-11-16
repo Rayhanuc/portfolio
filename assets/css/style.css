@@ -90,8 +90,16 @@ a:hover { text-decoration: none }
     margin: 0;
     padding: 0;
     list-style: none;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 500;
+    
+}
+.mainmenu ul li a {
+    transition: .3s;
+}
+
+.mainmenu ul li a:hover {
+    color: #9088a8;
 }
 
 .mainmenu li {
@@ -277,6 +285,12 @@ a:hover { text-decoration: none }
     border-radius: 20px;
     background: #655e7a;
     border: none;
+    transition: .3s;
+}
+
+.hero-area-content, .portfolio-btn button:hover {
+    color: #fff;
+    background: #4f4962;
 }
 
 .profile-img {
@@ -319,8 +333,22 @@ a:hover { text-decoration: none }
 
 .service-heading h2 {
     font-size: 40px;
-    padding-bottom: 55px;
+    padding-bottom: 5px;
+    margin-bottom: 55px;
+    color: #4c465e;
 }
+
+.service-heading h2:after {
+  left: 39.7%;
+  top: 53px;
+  width: 50px;
+  height: 4px;
+  content: "";
+  background: #655e7a;
+  position: absolute;
+}
+
+
 /*Services section css end*/
 
 
@@ -381,6 +409,24 @@ a:hover { text-decoration: none }
 .portfolio-filter li.active {
     color: green
 }
+
+.portfolio-area .heading h2 {
+    color: #4c465e;
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.portfolio-area .heading h2::after {
+    background: #4c465e;
+    left: 39.5%;
+    top: 53px;
+    width: 50px;
+    height: 4px;
+    content: "";
+    position: absolute;
+}
+
 /*Portfolio section css end*/
 
 
