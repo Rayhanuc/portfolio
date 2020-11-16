@@ -56,9 +56,9 @@
 
 
 		// Portfolio 
-		$(".portfolio-filter li").on('click', function() {
-		$(".portfolio-filter li").removeClass("active");
-		$(this).addClass("active");
+		// $(".portfolio-filter li").on('click', function() {
+		// $(".portfolio-filter li").removeClass("active");
+		// $(this).addClass("active");
 
 		/*var filterValue = $ (this).attr("data-filter");
 		$(".portfolio-list").isotope({
