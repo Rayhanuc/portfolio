@@ -178,6 +178,42 @@ a:hover { text-decoration: none }
 
 
 /*Testimonial item css start*/
+.testimonial-bg-overlay {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
+.testimonial-bg-overlay::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #3d384d;
+    z-index: -1;
+    opacity: .7;
+}
+
+
+.testimonial-text h2::after {
+    position: absolute;
+    left: 26%;
+    top: 53px;
+    width: 50px;
+    height: 4px;
+    content: "";
+    background: #c5bbe3;
+}
+
+.testimonial-text h2 {
+    font-size: 40px;
+    color: #c5bbe3;
+    position: relative;
+    margin-bottom: 40px;
+}
+
 .testimonials-bg {background: url( ../img/tes-bg.jpg);}
 .single-testimonial-item {
     background: #fff;
@@ -236,7 +272,26 @@ a:hover { text-decoration: none }
 
 
 
+/*Contact css start*/
 
+.contact-content h2 {
+    position: relative;
+    font-size: 40px;
+    color: #4c465e;
+    margin-bottom: 40px;
+}
+
+.contact-content h2::after {
+    left: 19.5%;
+    top: 53px;
+    background: #4c465e;
+    content: "";
+    width: 50px;
+    height: 4px;
+    position: absolute;
+}
+
+/*Contact css end*/
 
 
 
@@ -379,8 +434,8 @@ a:hover { text-decoration: none }
     content: "";
     position: absolute;
     background: #453f55;
-}
-/*About me css end*/
+
+}/*About me css end*/
 
 
 /*Portfolio section css start*/
@@ -451,7 +506,68 @@ a:hover { text-decoration: none }
 
 
 
+/*Testimonials css start*/
 
+/*Testimonials css end*/
+
+
+/*Contact with me css start*/
+
+.contact-content {
+    margin-bottom: 40px;
+}
+
+.contact-fomr input, .contact-fomr textarea {
+  border: none;
+  width: 100%;
+  margin-bottom: 25px;
+  background: #f7f7f7;
+  padding-left: 12px;
+}
+
+.contact-fomr input {
+  height: 40px;
+}
+
+.contact-fomr textarea {
+  height: 200px;
+  padding-top: 10px;
+}
+
+.contact-fomr .submit-btn input {
+    padding: 18px 40px 18px;
+    text-align: center;
+    display: inline-block;
+    line-height: 0.5;
+    transition: .3s;
+}
+
+input[type="submit"], button[type="submit"] {
+    width: auto;
+    border: none;
+    background-color: #655e7a;
+    border-radius: 50px;
+    color: #fff;
+}
+
+/*.submit-btn .contact-form input[type=submit], .submit-btn .contact-form button[type=submit] {
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 3px;
+}*/
+
+.submit-btn {
+    text-align: center;
+}
+
+
+
+.contact-fomr .submit-btn input:hover {
+    color: #fff;
+    background: #4f4962;
+}
+
+/*Contact with me css end*/
 
 
 
@@ -551,6 +667,11 @@ a:hover { text-decoration: none }
     color: #8d83a8;
     position: relative;
     line-height: 2;
+    transition: .3s;
+}
+
+.social-links-area .heading ul li a:hover {
+    color: #b9add9;
 }
 
 .social-links-area .heading ul li a::before {
@@ -637,4 +758,19 @@ a:hover { text-decoration: none }
     color: #e2b935;
 }
 
+
+
+/*Footer bottom css start*/
+
+.copyright-content p span {
+    color: #8d83a8;
+}
+
+.copyright-content p span:hover {
+    color: #b6aad5;
+    cursor: pointer;
+}
+
+
+/*Footer bottom css end*/
 
