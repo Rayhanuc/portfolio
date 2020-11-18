@@ -71,6 +71,20 @@ a:hover { text-decoration: none }
     background: url(../img/hero-bg.jpg);
 }
 
+.profile-img {
+    background: url(../img/ray-pro-pic.jpg);
+}
+
+.profile-img {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 25px solid #655e7a;
+    margin: 100px 50px;
+}
+
 .logo {
     font-size: 40px;
     font-weight: 700;
@@ -410,6 +424,19 @@ a:hover { text-decoration: none }
 
 
 /*About me css start*/
+.pro-img2 {
+    background-image: url(../img/ray-pro-pic2.jpg);
+}
+.pro-img2{
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 25px solid #655e7a;
+    margin: 100px 50px;
+}
+
 .about-me-area {
     background: #a59cbe;
     color: #fff;
