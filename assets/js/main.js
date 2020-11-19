@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
 		nav: false,
 		navSpeed:1200,
 		dots: true,
-		autoplay: false,
+		autoplay: true,
 		autoplaySpeed:1200,
 		responsive:{
 	        0:{
@@ -32,6 +32,7 @@ jQuery(document).ready(function($) {
 		nav: false,
 		dots: false,
 		autoplay: true,
+		autoplaySpeed:1200,
 		responsive:{
 	        0:{
 	            items:2

@@ -529,6 +529,7 @@ a:hover { text-decoration: none }
   font-size: 40px;
   color: #4c465e;
   position: relative;
+  margin-bottom: 50px;
 }
 .client-title h2:after {
   position: absolute;
