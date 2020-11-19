@@ -232,21 +232,25 @@ a:hover { text-decoration: none }
 }
 
 .testimonials-bg {background: url( ../img/tes-bg.jpg);}
+
+
 .single-testimonial-item {
-    background: #fff;
-    color: #000;
+    background: #e1dbf0;
+    color: #7d758e;
     padding: 30px;
     font-size: 16px;
     font-weight: 700;
     font-family: 'Zilla Slab', serif;
     font-style: italic;
     text-align: center;
+    border-radius: 13px;
+    border-top: 5px solid #423b51;
 }
 
-.single-testimonial-item
- h5 {
+.single-testimonial-item h5 {
     margin-top: 25px;
     margin-bottom: 10px;
+    color: #423b51;
 }
 
 
@@ -278,7 +282,10 @@ a:hover { text-decoration: none }
 .client-img img {
     text-align: center;
     border-radius: 50px;
+    border: 5px solid #887ba2;
+    box-shadow: 1px 4px 17px #82779b;
 }
+
 .client-img {
     width: 70px;
     height: 70px;
