@@ -50,16 +50,11 @@ a:hover { text-decoration: none }
 
 .single-portfolio-item { background-image: url(../img/bg-1.jpg); }
 .single-portfolio-item.small-item { background-image: url(../img/bg-2.jpg); }
-.portfolio-bg-1 {background: url(../img/port-bg1.jpg);}
-.portfolio-bg-2 {background: url(../img/port-bg2.jpg);}
-.portfolio-bg-3 {background: url(../img/port-bg3.jpg);}
-.portfolio-bg-4 {background: url(../img/port-bg4.jpg);}
-.portfolio-bg-5 {background: url(../img/port-bg5.jpg);}
-.portfolio-bg-6 {background: url(../img/port-bg6.jpg);}
+
 .port-bg {
     height: 200px;
     width: 100%;
-    background: red;
+    /*background: red;*/
 }
 
 .section-padding {
@@ -477,9 +472,13 @@ a:hover { text-decoration: none }
 
 /*Portfolio section css start*/
 .portfolio-bg-1 {background: url(../img/author-1.jpg);}
+/*.portfolio-img-1 {background: url(../img/logo/Mother-2.jpg);}*/
+/*.portfolio-img-2 {background: url(../img/t-shirt/athletic-2.jpg);}*/
+.portfolio-bg-1 {background: url(../img/author-1.jpg);}
 .port-bg {
     background-size: cover;
     background-position: center;
+    height: auto;
 }
 
 .portfolio-filter {
