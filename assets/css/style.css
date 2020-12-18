@@ -392,6 +392,7 @@ a:hover { text-decoration: none }
 
 .single-service-item .service-heading {
     padding: 15px;
+    height: 130px;
 }
 
 .single-service-item .service-icon {
@@ -479,6 +480,7 @@ a:hover { text-decoration: none }
     background-size: cover;
     background-position: center;
     height: auto;
+    min-height: 350px;
 }
 
 .portfolio-filter {

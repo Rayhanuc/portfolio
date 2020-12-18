@@ -3,6 +3,12 @@
 
 
 jQuery(document).ready(function($) {
+
+	$('.portfolio-items').magnificPopup({
+	  delegate: 'a', // child items selector, by clicking on it popup will open
+	  type: 'image'
+	  // other options
+	});
 	
 	$(".testimonial-list").owlCarousel({
 		items: 3,
